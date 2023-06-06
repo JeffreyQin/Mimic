@@ -1,0 +1,10 @@
+{
+    "OPENAI": {
+        "key": "",
+        "organization": "",
+        "temperature": 0,
+        "max_tokens": 1000,
+        "timeout": 20000000,
+        "headers": {"Example-Header": "example"}
+    }
+}
