@@ -18,7 +18,6 @@ chatForm.addEventListener('submit', async (evt) => {
     appendBotText(reply.result);
 });
 
-
 function appendUserText(text) {
     const newText = document.createElement('p');
     newText.innerHTML = '<b>You: </b>' + text;
@@ -27,6 +26,6 @@ function appendUserText(text) {
 
 function appendBotText(text) {
     const newText = document.createElement('p');
-    newText.innerHTML = '<b>' + botName.value + ': </b>' + text;
+    newText.innerHTML = `<b>${botName.innerHTML}: </b>` + text;
     chat.appendChild(newText);
 }
