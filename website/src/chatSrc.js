@@ -10,12 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
     botName.innerHTML = params.get('bot');
 })
 
-chatForm.addEventListener('submit', (evt) => {
+chatForm.addEventListener('submit', async (evt) => {
     evt.preventDefault();
     appendUserText(chatText.value);
-    
+    const url = 'http://localhost:3000/chat/reply?bot=' + botName.innerHTML + '&msg=' + chatText.value;
+    const reply = await fetch(url).then(res => res.json());
+    appendBotText(reply.result);
 });
-
 
 
 function appendUserText(text) {

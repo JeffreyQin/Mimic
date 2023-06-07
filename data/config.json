@@ -1,10 +1,11 @@
 {
     "OPENAI": {
-        "key": "",
-        "organization": "",
+        "key": "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",
+        "organization": "org-LiXCMyDcmveTxRaXauhhlpUY",
         "temperature": 0,
         "max_tokens": 1000,
         "timeout": 20000000,
-        "headers": {"Example-Header": "example"}
+        "headers": {"Example-Header": "example"},
+        "model": "text-davinci-003"
     }
 }
