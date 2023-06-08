@@ -1,5 +1,5 @@
 const startButton = document.getElementById('startButton');
 
 startButton.addEventListener('click', () => {
-    window.location.href = 'login.html'
+    window.location.href = './website/pages/login.html'
 });
