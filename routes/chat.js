@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const chatGPT = require('../openai/chatgpt.js')
 
 
 router.get('/reply', async (req, res) => {
-    let text = await chatgpt(req.query['msg']);
+    let text = await chatGPT.chatgpt(req.query['msg']);
     res.json({ result: text });
 })
 
