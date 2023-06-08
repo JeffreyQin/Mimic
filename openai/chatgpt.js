@@ -8,9 +8,9 @@ exports.chatgpt = async function chatgpt(promptMsg) {
     const openai = new OpenAIApi(configuration);
 
     const completion = await openai.createCompletion({
-        model: 'text-davinci-003',
+        model: 'text-davinci-002',
         prompt: promptMsg,
-        temperature: 0.8,
+        temperature: 0,
         max_tokens: 1000
     })
 
