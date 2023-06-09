@@ -1,0 +1,27 @@
+{
+    "person1": {
+        "1": {
+            "prompt": "prompt1",
+            "message": "msg1"
+        },
+        "2": {
+            "prompt": "prompt2",
+            "message": "msg2"
+        },
+        "3": {
+            "prompt": "prompt3",
+            "message": "msg3"
+        },
+        "0": {
+            "message": "msgOther"
+        }
+    },
+    "person2": {
+      
+    },
+    "person3": {
+      
+    } 
+}
+      
+  
