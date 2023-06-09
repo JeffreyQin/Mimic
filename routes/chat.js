@@ -10,7 +10,6 @@ router.get('/reply', async (req, res) => {
     do {
         const text = await chatGPT.chatgpt(input);
         msgIndex = text.replace(new RegExp('\n', 'gi'), '');
-        console.log(msgIndex);
     } while (msgIndex.length != 1);
     const output = reply.generateReply(req.query['bot'], msgIndex);
     res.json({ result: output })
