@@ -1,9 +1,8 @@
 # Mimic
 
-Frontend: HTML, Javascript  
-Backend: Javascript (Node.js, Express.js, openAI API)
-
-This is a mini project that uses the openAI API for chatgpt to accept instructions and imitate how certain people talk.
+This is a mini project that uses the openAI API for chatgpt to accept instructions and imitate how certain people talk.  
+- Frontend: HTML, Javascript  
+- Backend: Javascript (Node.js, Express.js, openAI API)
 
 ## How to use
 
