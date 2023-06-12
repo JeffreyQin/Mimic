@@ -2,15 +2,15 @@
     "person1": {
         "1": {
             "prompt": "prompt1",
-            "message": "msg1"
+            "message": ["msg1", "msg2", "msg3"]
         },
         "2": {
             "prompt": "prompt2",
-            "message": "msg2"
+            "message": ["msg1", "msg2", "msg3"]
         },
         "3": {
             "prompt": "prompt3",
-            "message": "msg3"
+            "message": ["msg1", "msg2", "msg3"]
         },
         "0": {
             "message": "msgOther"
