@@ -11,7 +11,7 @@ This is a mini project that uses the openAI API for chatgpt to accept instructio
 2. Modify the following to your needs:
     - In ".env", fill in the OPENAI_API_KEY with yours.
     - In "data/groups.json", fill in the group names (passcode) and add people to your groups.
-    - In "data/instructions.json", fill in the instructions for each person. See example below.
+    - In "data/instructions.json", added and fill in the instructions for each person. See example below.
 3. Install node.js. Run "npm install" and "node server.js" to start server.
 4. Navigate to http://localhost:3000, and fill in the passcode as you defined in "data/group.json".
 5. Enjoy !!
