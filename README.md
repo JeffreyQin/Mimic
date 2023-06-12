@@ -18,7 +18,7 @@ This is a mini project that uses the openAI API for chatgpt to accept instructio
 
 ### Example instructions
 
-prompt: "contains information related to Canada"
+prompt: "contains information related to Canada"  
 message: ["It's a good country!", "Canada is beautiful!", "Where do you live?"]
 
 ## Features in development
