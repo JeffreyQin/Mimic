@@ -1,3 +1,5 @@
 .env
 instructions.json
 groups.json
+
+node_modules/
